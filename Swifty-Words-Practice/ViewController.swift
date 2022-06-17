@@ -118,6 +118,7 @@ class ViewController: UIViewController {
                 letterButton.addTarget(self, action: #selector(tappedButton), for: .touchUpInside)
                 letterButton.layer.borderWidth = 1
                 letterButton.layer.borderColor = UIColor.gray.cgColor
+                letterButton.layer.cornerRadius = 8
                 
                 buttonsView.addSubview(letterButton)
                 letterButtons.append(letterButton)
