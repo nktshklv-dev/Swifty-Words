@@ -13,6 +13,8 @@
 		11844DEC285C85690059E403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11844DEA285C85690059E403 /* Main.storyboard */; };
 		11844DEE285C856A0059E403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11844DED285C856A0059E403 /* Assets.xcassets */; };
 		11844DF1285C856A0059E403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11844DEF285C856A0059E403 /* LaunchScreen.storyboard */; };
+		11844DFA285C85870059E403 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11844DF8285C85870059E403 /* level2.txt */; };
+		11844DFB285C85870059E403 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11844DF9285C85870059E403 /* level1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		11844DED285C856A0059E403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11844DF0285C856A0059E403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11844DF2285C856A0059E403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11844DF8285C85870059E403 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		11844DF9285C85870059E403 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				11844DEA285C85690059E403 /* Main.storyboard */,
 				11844DED285C856A0059E403 /* Assets.xcassets */,
 				11844DEF285C856A0059E403 /* LaunchScreen.storyboard */,
+				11844DF9285C85870059E403 /* level1.txt */,
+				11844DF8285C85870059E403 /* level2.txt */,
 				11844DF2285C856A0059E403 /* Info.plist */,
 			);
 			path = "Swifty-Words-Practice";
@@ -125,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11844DFB285C85870059E403 /* level1.txt in Resources */,
 				11844DF1285C856A0059E403 /* LaunchScreen.storyboard in Resources */,
 				11844DEE285C856A0059E403 /* Assets.xcassets in Resources */,
+				11844DFA285C85870059E403 /* level2.txt in Resources */,
 				11844DEC285C85690059E403 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +314,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -334,7 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
